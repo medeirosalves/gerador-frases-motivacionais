@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -42,5 +44,10 @@ public class Main {
                 "um futuro brilhante."
         };
 
+        Random random = new Random();
+
+        String virtude = virtudes[random.nextInt(virtudes.length)];
+        String acao = acoes[random.nextInt(acoes.length)];
+        String objetivo = objetivos[random.nextInt(objetivos.length)];
     }
 }
