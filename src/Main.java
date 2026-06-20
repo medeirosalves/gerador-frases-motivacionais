@@ -50,6 +50,6 @@ public class Main {
         String acao = acoes[random.nextInt(acoes.length)];
         String objetivo = objetivos[random.nextInt(objetivos.length)];
 
-        System.out.println("Frase sorteada: " + virtude + " " + acao + " " + objetivo);
+        System.out.println("\n Frase sorteada: " + virtude + " " + acao + " " + objetivo);
     }
 }
