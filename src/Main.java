@@ -49,5 +49,7 @@ public class Main {
         String virtude = virtudes[random.nextInt(virtudes.length)];
         String acao = acoes[random.nextInt(acoes.length)];
         String objetivo = objetivos[random.nextInt(objetivos.length)];
+
+        System.out.println("Frase sorteada: " + virtude + " " + acao + " " + objetivo);
     }
 }
