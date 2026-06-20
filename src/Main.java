@@ -1,5 +1,46 @@
 public class Main {
     public static void main(String[] args) {
 
+        String[] virtudes = {
+                "A disciplina",
+                "A persistência",
+                "A coragem",
+                "A determinação",
+                "A paciência",
+                "A humildade",
+                "A dedicação",
+                "A confiança",
+                "A resiliência",
+                "A consistência",
+                "O foco",
+                "A vontade de aprender"
+        };
+
+        String[] acoes = {
+                "é a chave para conquistar",
+                "permite alcançar",
+                "ajuda a construir",
+                "torna possível superar",
+                "abre caminho para",
+                "fortalece a busca por",
+                "é fundamental para atingir",
+                "faz a diferença na conquista de",
+                "contribui para alcançar",
+                "é o primeiro passo para"
+        };
+
+        String[] objetivos = {
+                "grandes objetivos.",
+                "o sucesso a longo prazo.",
+                "uma vida melhor.",
+                "novas oportunidades.",
+                "resultados extraordinários.",
+                "sonhos que parecem distantes.",
+                "uma carreira de sucesso.",
+                "mudanças positivas.",
+                "o crescimento pessoal.",
+                "um futuro brilhante."
+        };
+
     }
 }
